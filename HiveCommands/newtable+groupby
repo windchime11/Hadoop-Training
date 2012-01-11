@@ -1,0 +1,4 @@
+create table new_t6 as select movie.name, movie.year, 
+count(*), avg(movierating.rating)
+from movie join movierating on (movie.id = movierating.movieid) 
+group by movie.name, movie.year;

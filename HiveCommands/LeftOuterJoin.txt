@@ -1,0 +1,2 @@
+select movie.name, movie.year from movie left outer join movierating on movie.id = movierating.movieid where movierating.rating is null;
+
