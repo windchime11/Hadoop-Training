@@ -1,0 +1,5 @@
+sudo /etc/init.d/hadoop-0.20-jobtracker status
+sudo /etc/init.d/hadoop-0.20-jobtracker restart
+sudo /etc/init.d/hadoop-0.20-tasktracker restart
+sudo /etc/init.d/hadoop-0.20-datanode restart
+sudo /etc/init.d/hadoop-0.20-namenode status
