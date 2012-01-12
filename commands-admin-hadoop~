@@ -1,5 +1,3 @@
-http://localhost:50030/jobtracker.jsp
-http://localhost:8021 jobtracker.jsp
 sudo /etc/init.d/hadoop-0.20-jobtracker status
 sudo /etc/init.d/hadoop-0.20-jobtracker restart
 sudo /etc/init.d/hadoop-0.20-tasktracker restart
